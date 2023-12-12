@@ -1,0 +1,77 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    max-width: 50em;
+    margin: 1em auto;
+    padding: 1em;
+    background: #111;
+    color: beige;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: -webkit-linear-gradient(left, #111, #333, #111);
+}
+
+code {
+    background: black;
+    color: lime;
+    padding: .3em;
+    border-radius: .5em;
+}
+
+button {
+    color: beige;
+    background: #333;
+    border: 2px solid #222;
+    border-radius: .5em;
+    box-shadow: 0 0 .5em black;
+    margin: auto;
+    padding: .5em;
+    transition: .3s;
+    cursor: pointer;
+    user-select: none;
+}
+
+button:hover {
+    background: #222;
+    border-color: #111;
+}
+
+button:active {
+    transition: .1s;
+    background: #111;
+    border-color: #222;
+}
+
+button img {
+    margin: .5em;
+    border: 2px solid black;
+    border-radius: 99em;
+    box-shadow: 0 0 1em black;
+}
+
+input[type="text"] {
+    outline: none;
+    padding: .4em;
+    transition: .3s;
+    background: #111;
+    color: beige;
+    border: 2px solid #444;
+    border-radius: .5em;
+    box-shadow: 0 0 1em black;
+}
+
+input[type="text"]:hover {
+    background: black;
+    border-color: gray;
+}
+
+input[type="text"]:focus {
+    background: black;
+    border-color: gray;
+    box-shadow: 0 0 .5em gray;
+}
